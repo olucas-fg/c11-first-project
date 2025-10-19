@@ -28,17 +28,15 @@ print("Gráfico para a questão 8: ")
 
 sizes = [quantityBelowAverage, quantityAboveAverage]
 labels = ["Abaixo da Média", "Acima da Média"]
-colors = ["#2ecc71", "#e74c3c"]
+colors = ["green", "red"]
 explode = (0.05, 0.05)
 
 plt.figure(figsize=(10, 7))
 plt.pie(
     sizes,
-    explode=explode,
     labels=labels,
     colors=colors,
     autopct="%1.1f%%",
-    shadow=True,
     startangle=90,
     textprops={"fontsize": 12, "fontweight": "bold"},
 )

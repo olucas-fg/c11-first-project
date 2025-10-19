@@ -29,7 +29,7 @@ statesAboveData = statesAboveAverageIncome.sort_values(
 
 plt.figure(figsize=(12, 8))
 bars = plt.barh(
-    statesAboveData["Name"], statesAboveData["Median Household Income"], color="#27ae60"
+    statesAboveData["Name"], statesAboveData["Median Household Income"], color="green"
 )
 plt.xlabel("Renda Domiciliar Mediana ($)")
 plt.ylabel("Estado")

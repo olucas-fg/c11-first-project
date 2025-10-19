@@ -38,7 +38,7 @@ print("Gráfico para a questão 5")
 
 sizes = [highSize, fiveToSeventeenSize]
 labels = ["Pobreza 0-4 anos maior", "Pobreza 5-17 anos maior"]
-colors = ["#ff6b6b", "#4dabf7"]
+colors = ["red", "blue"]
 
 plt.figure(figsize=(10, 7))
 plt.pie(

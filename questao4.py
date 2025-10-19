@@ -36,14 +36,14 @@ bars1 = ax.bar(
     graphData["Poverty Percent, All Ages"],
     width,
     label="Pobreza Geral",
-    color="steelblue",
+    color="blue",
 )
 bars2 = ax.bar(
     x,
     graphData["Poverty Percent, Age 0-17"],
     width,
     label="Pobreza Infantil (0-17)",
-    color="coral",
+    color="purple",
 )
 bars3 = ax.bar(
     x + width,

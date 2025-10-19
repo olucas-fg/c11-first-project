@@ -19,7 +19,6 @@ print(uncertaintyData.head())
 
 uncertaintyData["Uncertainty"] = uncertaintyData.iloc[:, 2] - uncertaintyData.iloc[:, 1]
 
-# Top 5 estados com maior incerteza
 MostUncertain = uncertaintyData.nlargest(5, "Uncertainty")
 print("Top 5 estados com maior incerteza:")
 print(MostUncertain)
@@ -28,7 +27,7 @@ print("")
 print("Gráfico para a questão 10")
 
 plt.figure(figsize=(10, 6))
-plt.barh(MostUncertain["Name"], MostUncertain["Uncertainty"], color="#e74c3c")
+plt.barh(MostUncertain["Name"], MostUncertain["Uncertainty"], color="red")
 plt.xlabel("Incerteza (diferença entre limites do CI 90%)")
 plt.ylabel("Estado")
 plt.title("Top 5 Estados com Maior Incerteza nas Estimativas de Pobreza")

@@ -32,7 +32,7 @@ print("Gráfico para a questão 7")
 regionCounts = regionsOfPoorest["Region"].value_counts()
 
 plt.figure(figsize=(10, 6))
-bars = plt.barh(regionCounts.index, regionCounts.values, color=["#e74c3c", "#f39c12"])
+bars = plt.barh(regionCounts.index, regionCounts.values, color=["red", "orange"])
 plt.xlabel("Número de Estados no Top 10 de Pobreza")
 plt.ylabel("Região")
 plt.title("Distribuição Regional dos 10 Estados Mais Pobres dos EUA")

@@ -59,7 +59,7 @@ plt.scatter(
     discrepancyData["Poverty Percent, All Ages"],
     alpha=0.5,
     s=50,
-    color="lightgray",
+    color="gray",
     label="Outros estados",
 )
 
