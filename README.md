@@ -16,8 +16,8 @@
 
 ### - 7-) Existe algum padrão regional (por região dos EUA, por exemplo) na distribuição da pobreza?
 
-### - 8-) Quais estados estão abaixo da média da pobreza (Poverty Percent, All Ages)?
+### - 8-) Quantos estados estão abaixo da média da pobreza (Poverty Percent, All Ages)?
 
 ### - 9-) Quais estados estão acima da renda domiciliar mediana?
 
-### - 10-) Qual a proporção da população pobre total que corresponde a crianças de 0–17 anos em cada estado?
+### - 10-) Quais estados têm maior incerteza nas estimativas de pobreza (maior diferença entre limites superior e inferior do CI 90%)?
