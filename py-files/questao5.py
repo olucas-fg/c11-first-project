@@ -9,7 +9,7 @@ print("Questão 5")
 print("")
 
 print(
-    "Em quais estados a taxa de pobreza em crianças de 0 a 4 anos é mais alta que a de 5 a 17 anos?"
+    "Qual a porcentagem dos estados em que a taxa de pobreza em crianças de 0 a 4 anos é mais alta que a de 5 a 17 anos?"
 )
 
 taxData = df.iloc[1:, [2, 18, 27]].copy()

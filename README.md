@@ -10,7 +10,7 @@
 
 ### 4ª Pergunta: Quais os 3 locais em que a disparidade entre o percentual de pobreza infantil (Poverty Percent, Age 0-17) e o percentual de pobreza geral (Poverty Percent, All Ages) é maior?
 
-### 5ª Pergunta: Em quais estados a taxa de pobreza em crianças de 0–4 anos é mais alta que a de 5–17 anos? Cite até 5 estados.
+### 5ª Pergunta: Qual a porcentagem dos estados em que a taxa de pobreza em crianças de 0 a 4 anos é mais alta que a de 5 a 17 anos?
 
 ### 6ª Pergunta: Quais estados têm alta renda mediana, mas também alta taxa de pobreza? Cite os 5 mais discrepantes.
 
