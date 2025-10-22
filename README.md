@@ -1,23 +1,55 @@
-# Projeto Prático - C11
+# Primeiro Projeto Prático - C11
 
-## Perguntas escolhidas que serão respondias nesse trabalho:
+## Equipe
+- Gustavo Pivoto Ambrósio – GEC – 2028  
+- Lucas do Lago Figueiredo – GEB – 784  
 
-### 1ª Pergunta: Quais são os 10 locais (condados/cidades) com o maior percentual de pobreza geral dos Estados Unidos (Poverty Percent, All Ages)?
+## Dependências
+Para executar os scripts, é necessário ter instaladas as seguintes bibliotecas Python:
+- Numpy
+- Pandas
+- Matplotlib
 
-### 2ª Pergunta: Quais são os 10 locais com a maior Renda Domiciliar Mediana (Median Household Income)?
+## Estrutura do Projeto
+```
+C11-FIRST-PROJECT/
+├── ipynb-files/
+│   └── questoes_colab.ipynb
+├── py-files/
+│   ├── questao1.py
+│   ├── questao2.py
+│   ├── questao3.py
+│   ├── questao4.py
+│   ├── questao5.py
+│   ├── questao6.py
+│   ├── questao7.py
+│   ├── questao8.py
+│   ├── questao9.py
+│   └── questao10.py
+├── apresentacao-dos-resultados.pdf
+├── est16us.csv
+├── us_states_fips_regions.csv
+└── README.md
+```
 
-### 3ª Pergunta: Quais são os 5 locais com o maior percentual de pobreza na primeira infância (Poverty Percent, Age 0-4)?
+## Perguntas escolhidas que serão respondias nesse trabalho
 
-### 4ª Pergunta: Quais os 3 locais em que a disparidade entre o percentual de pobreza infantil (Poverty Percent, Age 0-17) e o percentual de pobreza geral (Poverty Percent, All Ages) é maior?
+1ª Pergunta: Quais são os 10 locais (condados/cidades) com o maior percentual de pobreza geral dos Estados Unidos (Poverty Percent, All Ages)?
 
-### 5ª Pergunta: Qual a porcentagem dos estados em que a taxa de pobreza em crianças de 0 a 4 anos é mais alta que a de 5 a 17 anos?
+2ª Pergunta: Quais são os 10 locais com a maior Renda Domiciliar Mediana (Median Household Income)?
 
-### 6ª Pergunta: Quais estados têm alta renda mediana, mas também alta taxa de pobreza? Cite os 5 mais discrepantes.
+3ª Pergunta: Quais são os 5 locais com o maior percentual de pobreza na primeira infância (Poverty Percent, Age 0-4)?
 
-### 7ª Pergunta: Existe algum padrão regional (por região dos EUA, por exemplo) na distribuição da pobreza?
+4ª Pergunta: Quais os 3 locais em que a disparidade entre o percentual de pobreza infantil (Poverty Percent, Age 0-17) e o percentual de pobreza geral (Poverty Percent, All Ages) é maior?
 
-### 8ª Pergunta: Quantos estados estão abaixo da média da pobreza (Poverty Percent, All Ages)?
+5ª Pergunta: Qual a porcentagem dos estados em que a taxa de pobreza em crianças de 0 a 4 anos é mais alta que a de 5 a 17 anos?
 
-### 9ª Pergunta: Quais estados estão acima da renda domiciliar mediana?
+6ª Pergunta: Quais estados têm alta renda mediana, mas também alta taxa de pobreza? Cite os 5 mais discrepantes.
 
-### 10ª Pergunta: Quais estados têm maior incerteza nas estimativas de pobreza (maior diferença entre limites superior e inferior do CI 90%)?
+7ª Pergunta: Existe algum padrão regional (por região dos EUA, por exemplo) na distribuição da pobreza?
+
+8ª Pergunta: Quantos estados estão abaixo da média da pobreza (Poverty Percent, All Ages)?
+
+9ª Pergunta: Quais estados estão acima da renda domiciliar mediana?
+
+10ª Pergunta: Quais estados têm maior incerteza nas estimativas de pobreza (maior diferença entre limites superior e inferior do CI 90%)?
